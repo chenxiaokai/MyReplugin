@@ -1,0 +1,235 @@
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\lenovo\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+< replugin-host-v2.2.0 > Welcome to replugin world ! 
+Incremental java compilation is an incubating feature.
+--------------------------------------------------------------------------
+< replugin-host-v2.2.0 > useAppCompat=true
+< replugin-host-v2.2.0 > countProcess=3
+< replugin-host-v2.2.0 > countTranslucentStandard=2
+< replugin-host-v2.2.0 > countTranslucentSingleTop=2
+< replugin-host-v2.2.0 > countTranslucentSingleTask=2
+< replugin-host-v2.2.0 > countTranslucentSingleInstance=3
+< replugin-host-v2.2.0 > countNotTranslucentStandard=6
+< replugin-host-v2.2.0 > countNotTranslucentSingleTop=2
+< replugin-host-v2.2.0 > countNotTranslucentSingleTask=3
+< replugin-host-v2.2.0 > countNotTranslucentSingleInstance=2
+< replugin-host-v2.2.0 > countTask=2
+--------------------------------------------------------------------------
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\lenovo\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\lenovo\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+:app:preBuild UP-TO-DATE
+:app:preBaiduReleaseBuild UP-TO-DATE
+:app:checkBaiduReleaseManifest
+:app:preBaiduDebugBuild UP-TO-DATE
+:app:preQQDebugBuild UP-TO-DATE
+:app:preQQReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:app:prepareComQihoo360RepluginRepluginHostLib220Library
+:app:prepareBaiduReleaseDependencies
+:app:compileBaiduReleaseAidl UP-TO-DATE
+:app:compileBaiduReleaseRenderscript UP-TO-DATE
+:app:generateBaiduReleaseBuildConfig UP-TO-DATE
+:app:rpGenerateBaiduReleaseHostConfig
+< replugin-host-v2.2.0 > rewrite E:\github\RePlugin-2.2.0\replugin-sample\host\app\build\generated\source\buildConfig\baidu\release\com\qihoo360\replugin\gen\RePluginHostConfig.java
+:app:generateBaiduReleaseResValues UP-TO-DATE
+:app:generateBaiduReleaseResources UP-TO-DATE
+:app:mergeBaiduReleaseResources UP-TO-DATE
+:app:processBaiduReleaseManifest UP-TO-DATE
+:app:processBaiduReleaseResources UP-TO-DATE
+:app:generateBaiduReleaseSources UP-TO-DATE
+:app:incrementalBaiduReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:javaPreCompileBaiduRelease
+:app:compileBaiduReleaseJavaWithJavac UP-TO-DATE
+:app:compileBaiduReleaseNdk UP-TO-DATE
+:app:compileBaiduReleaseSources UP-TO-DATE
+:app:lintVitalBaiduRelease
+:app:mergeBaiduReleaseShaders UP-TO-DATE
+:app:compileBaiduReleaseShaders UP-TO-DATE
+:app:generateBaiduReleaseAssets UP-TO-DATE
+:app:mergeBaiduReleaseAssets UP-TO-DATE
+:app:rpGenerateBaiduReleaseBuiltinJson
+< replugin-host-v2.2.0 > pluginsSize=2
+< replugin-host-v2.2.0 > pluginsInfo=[
+    {
+        "high": null,
+        "frm": null,
+        "ver": 104,
+        "low": null,
+        "pkg": "com.qihoo360.replugin.sample.demo1",
+        "path": "plugins/demo1.jar",
+        "name": "demo1"
+    },
+    {
+        "high": null,
+        "frm": null,
+        "ver": 100,
+        "low": null,
+        "pkg": "com.qihoo360.replugin.sample.demo2",
+        "path": "plugins/demo2.jar",
+        "name": "demo2"
+    }
+]
+< replugin-host-v2.2.0 > rewrite E:\github\RePlugin-2.2.0\replugin-sample\host\app\build\intermediates\assets\baidu\release\plugins-builtin.json
+:app:transformClassesWithDexForBaiduRelease UP-TO-DATE
+:app:mergeBaiduReleaseJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForBaiduRelease UP-TO-DATE
+:app:processBaiduReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForBaiduRelease UP-TO-DATE
+:app:packageBaiduRelease UP-TO-DATE
+:app:assembleBaiduRelease
+:app:checkQQReleaseManifest
+:app:prepareQQReleaseDependencies
+:app:compileQQReleaseAidl UP-TO-DATE
+:app:compileQQReleaseRenderscript UP-TO-DATE
+:app:generateQQReleaseBuildConfig UP-TO-DATE
+:app:rpGenerateQQReleaseHostConfig
+< replugin-host-v2.2.0 > rewrite E:\github\RePlugin-2.2.0\replugin-sample\host\app\build\generated\source\buildConfig\QQ\release\com\qihoo360\replugin\gen\RePluginHostConfig.java
+:app:generateQQReleaseResValues UP-TO-DATE
+:app:generateQQReleaseResources UP-TO-DATE
+:app:mergeQQReleaseResources UP-TO-DATE
+:app:processQQReleaseManifest UP-TO-DATE
+:app:processQQReleaseResources UP-TO-DATE
+:app:generateQQReleaseSources UP-TO-DATE
+:app:incrementalQQReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:javaPreCompileQQRelease
+:app:compileQQReleaseJavaWithJavac UP-TO-DATE
+:app:compileQQReleaseNdk UP-TO-DATE
+:app:compileQQReleaseSources UP-TO-DATE
+:app:lintVitalQQRelease
+:app:mergeQQReleaseShaders UP-TO-DATE
+:app:compileQQReleaseShaders UP-TO-DATE
+:app:generateQQReleaseAssets UP-TO-DATE
+:app:mergeQQReleaseAssets UP-TO-DATE
+:app:rpGenerateQQReleaseBuiltinJson
+< replugin-host-v2.2.0 > pluginsSize=2
+< replugin-host-v2.2.0 > pluginsInfo=[
+    {
+        "high": null,
+        "frm": null,
+        "ver": 104,
+        "low": null,
+        "pkg": "com.qihoo360.replugin.sample.demo1",
+        "path": "plugins/demo1.jar",
+        "name": "demo1"
+    },
+    {
+        "high": null,
+        "frm": null,
+        "ver": 100,
+        "low": null,
+        "pkg": "com.qihoo360.replugin.sample.demo2",
+        "path": "plugins/demo2.jar",
+        "name": "demo2"
+    }
+]
+< replugin-host-v2.2.0 > rewrite E:\github\RePlugin-2.2.0\replugin-sample\host\app\build\intermediates\assets\QQ\release\plugins-builtin.json
+:app:transformClassesWithDexForQQRelease UP-TO-DATE
+:app:mergeQQReleaseJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForQQRelease UP-TO-DATE
+:app:processQQReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForQQRelease UP-TO-DATE
+:app:packageQQRelease UP-TO-DATE
+:app:assembleQQRelease
+:app:assembleRelease
+:replugin-host-lib:preBuild UP-TO-DATE
+:replugin-host-lib:preReleaseBuild UP-TO-DATE
+:replugin-host-lib:checkReleaseManifest
+:replugin-host-lib:preDebugAndroidTestBuild UP-TO-DATE
+:replugin-host-lib:preDebugBuild UP-TO-DATE
+:replugin-host-lib:preDebugUnitTestBuild UP-TO-DATE
+:replugin-host-lib:preReleaseUnitTestBuild UP-TO-DATE
+:replugin-host-lib:prepareComAndroidSupportSupportCompat2520Library
+:replugin-host-lib:prepareComAndroidSupportSupportCoreUi2520Library
+:replugin-host-lib:prepareComAndroidSupportSupportCoreUtils2520Library
+:replugin-host-lib:prepareComAndroidSupportSupportFragment2520Library
+:replugin-host-lib:prepareComAndroidSupportSupportMediaCompat2520Library
+:replugin-host-lib:prepareComAndroidSupportSupportV42520Library
+:replugin-host-lib:prepareReleaseDependencies
+:replugin-host-lib:compileReleaseAidl UP-TO-DATE
+:replugin-host-lib:compileReleaseNdk UP-TO-DATE
+:replugin-host-lib:compileLint UP-TO-DATE
+:replugin-host-lib:copyReleaseLint UP-TO-DATE
+:replugin-host-lib:compileReleaseRenderscript UP-TO-DATE
+:replugin-host-lib:generateReleaseBuildConfig UP-TO-DATE
+:replugin-host-lib:generateReleaseResValues UP-TO-DATE
+:replugin-host-lib:generateReleaseResources UP-TO-DATE
+:replugin-host-lib:packageReleaseResources UP-TO-DATE
+:replugin-host-lib:processReleaseManifest UP-TO-DATE
+:replugin-host-lib:processReleaseResources UP-TO-DATE
+:replugin-host-lib:generateReleaseSources UP-TO-DATE
+:replugin-host-lib:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:replugin-host-lib:javaPreCompileRelease
+:replugin-host-lib:compileReleaseJavaWithJavac UP-TO-DATE
+:replugin-host-lib:extractReleaseAnnotations UP-TO-DATE
+:replugin-host-lib:mergeReleaseShaders UP-TO-DATE
+:replugin-host-lib:compileReleaseShaders UP-TO-DATE
+:replugin-host-lib:generateReleaseAssets UP-TO-DATE
+:replugin-host-lib:mergeReleaseAssets UP-TO-DATE
+:replugin-host-lib:mergeReleaseProguardFiles UP-TO-DATE
+:replugin-host-lib:packageReleaseRenderscript UP-TO-DATE
+:replugin-host-lib:processReleaseJavaRes UP-TO-DATE
+:replugin-host-lib:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:replugin-host-lib:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:replugin-host-lib:mergeReleaseJniLibFolders UP-TO-DATE
+:replugin-host-lib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:replugin-host-lib:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:replugin-host-lib:bundleRelease UP-TO-DATE
+:replugin-host-lib:compileReleaseSources UP-TO-DATE
+:replugin-host-lib:assembleRelease UP-TO-DATE
+:utils:preBuild UP-TO-DATE
+:utils:preReleaseBuild UP-TO-DATE
+:utils:checkReleaseManifest
+:utils:preDebugBuild UP-TO-DATE
+:utils:prepareComAndroidSupportSupportCompat2531Library
+:utils:prepareComAndroidSupportSupportCoreUi2531Library
+:utils:prepareComAndroidSupportSupportCoreUtils2531Library
+:utils:prepareComAndroidSupportSupportFragment2531Library
+:utils:prepareComAndroidSupportSupportMediaCompat2531Library
+:utils:prepareComAndroidSupportSupportV42531Library
+:utils:prepareReleaseDependencies
+:utils:compileReleaseAidl UP-TO-DATE
+:utils:compileReleaseRenderscript UP-TO-DATE
+:utils:generateReleaseBuildConfig UP-TO-DATE
+:utils:generateReleaseResValues UP-TO-DATE
+:utils:generateReleaseResources UP-TO-DATE
+:utils:mergeReleaseResources UP-TO-DATE
+:utils:processReleaseManifest UP-TO-DATE
+:utils:processReleaseResources UP-TO-DATE
+:utils:generateReleaseSources UP-TO-DATE
+:utils:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:utils:javaPreCompileRelease
+:utils:compileReleaseJavaWithJavac UP-TO-DATE
+:utils:compileReleaseNdk UP-TO-DATE
+:utils:compileReleaseSources UP-TO-DATE
+:utils:lintVitalRelease
+:utils:mergeReleaseShaders UP-TO-DATE
+:utils:compileReleaseShaders UP-TO-DATE
+:utils:generateReleaseAssets UP-TO-DATE
+:utils:mergeReleaseAssets UP-TO-DATE
+:utils:transformClassesWithDexForRelease UP-TO-DATE
+:utils:mergeReleaseJniLibFolders UP-TO-DATE
+:utils:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:utils:processReleaseJavaRes UP-TO-DATE
+:utils:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:utils:packageRelease UP-TO-DATE
+:utils:assembleRelease
+
+BUILD SUCCESSFUL
+
+Total time: 2.511 secs

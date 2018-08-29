@@ -1,0 +1,316 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\lenovo\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+< replugin-plugin-v2.2.0 > Welcome to replugin world ! 
+>>> APP_PACKAGE com.qihoo360.replugin.sample.demo1
+Incremental java compilation is an incubating feature.
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\lenovo\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\lenovo\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+:app:preBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:checkReleaseManifest
+:app:preDebugBuild UP-TO-DATE
+:app:prepareComQihoo360RepluginRepluginPluginLib220Library
+:app:preparePluginLibraryLibrary
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWith___ReClass___ForRelease
+
+
+============================================================
+                    replugin-plugin-gradle
+============================================================
+Add repluginPluginConfig to your build.gradle to enable this plugin:
+
+repluginPluginConfig {
+    // Name of 'App Module'��use '' if root dir is 'App Module'. ':app' as default.
+    appModule = ':app'
+
+    // Injectors ignored
+    // LoaderActivityInjector: Replace Activity to LoaderActivity
+    // ProviderInjector: Inject provider method call.
+    ignoredInjectors = ['LoaderActivityInjector']
+}
+
+
+>>> rootLocation: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\transforms\___ReClass___\release
+>>> variantDir: release
+----------------------------------------------------------------------------------------------------
+>>> Unzip Jar ...
+    [unzip] Expanding: C:\Users\lenovo\.android\build-cache\e2dfe26920d9ea2517ce640d11d0652d17a5ad95\output\jars\classes.jar into E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class
+    [unzip] Expanding: C:\Users\lenovo\.android\build-cache\0e7d548d419faf0a192cd7f99bd6543d5062afee\output\jars\classes.jar into E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\87c8f13e0cddc08265c43942441d25e39f1c0865\class
+----------------------------------------------------------------------------------------------------
+>>> ClassPath:
+    C:\Users\lenovo\AppData\Local\Android\Sdk\platforms\android-25\android.jar
+    E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class
+    E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\87c8f13e0cddc08265c43942441d25e39f1c0865\class
+    E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+----------------------------------------------------------------------------------------------------
+>>> Do: LoaderActivityInjector
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\e2dfe26920d9ea2517ce640d11d0652d17a5ad95\output\jars\classes.jar
+>>> variantName:Release
+ manifestOutputFile:E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\full\release\AndroidManifest.xml true
+ instantRunManifestOutputFile:E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\instant-run\release\AndroidManifest.xml false
+ AndroidManifest.xml ·����E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\full\release\AndroidManifest.xml
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\0e7d548d419faf0a192cd7f99bd6543d5062afee\output\jars\classes.jar
+>>> variantName:Release
+ manifestOutputFile:E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\full\release\AndroidManifest.xml true
+ instantRunManifestOutputFile:E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\instant-run\release\AndroidManifest.xml false
+ AndroidManifest.xml ·����E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\full\release\AndroidManifest.xml
+>>> Handle com.qihoo360.replugin.sample.library.LibMainActivity
+    Replace com.qihoo360.replugin.sample.library.LibMainActivity's SuperClass android.app.Activity to com.qihoo360.replugin.loader.a.PluginActivity
+>>> Handle Dir: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+>>> variantName:Release
+ manifestOutputFile:E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\full\release\AndroidManifest.xml true
+ instantRunManifestOutputFile:E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\instant-run\release\AndroidManifest.xml false
+ AndroidManifest.xml ·����E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\manifests\full\release\AndroidManifest.xml
+>>> Handle com.qihoo360.replugin.sample.demo1.MainActivity
+    Replace com.qihoo360.replugin.sample.demo1.MainActivity's SuperClass android.app.Activity to com.qihoo360.replugin.loader.a.PluginActivity
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.standard.StandardActivity
+    Replace com.qihoo360.replugin.sample.demo1.BaseActivity's SuperClass android.app.Activity to com.qihoo360.replugin.loader.a.PluginActivity
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.theme.ThemeBlackNoTitleBarActivity
+    Replace com.qihoo360.replugin.sample.demo1.activity.theme.ThemeBlackNoTitleBarActivity's SuperClass android.app.Activity to com.qihoo360.replugin.loader.a.PluginActivity
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.theme.ThemeDialogActivity
+    Replace com.qihoo360.replugin.sample.demo1.activity.theme.ThemeDialogActivity's SuperClass android.app.Activity to com.qihoo360.replugin.loader.a.PluginActivity
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.theme.ThemeBlackNoTitleBarFullscreenActivity
+    Replace com.qihoo360.replugin.sample.demo1.activity.theme.ThemeBlackNoTitleBarFullscreenActivity's SuperClass android.app.Activity to com.qihoo360.replugin.loader.a.PluginActivity
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.task_affinity.TAActivity1
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.task_affinity.TAActivity2
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.task_affinity.TAActivity3
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.task_affinity.TAActivity4
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.single_instance.TIActivity1
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.single_top.SingleTopActivity1
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.intent_filter.IntentFilterDemoActivity1
+>>> Handle com.qihoo360.replugin.sample.demo1.activity.for_result.ForResultActivity
+>>> Do: LocalBroadcastInjector
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\e2dfe26920d9ea2517ce640d11d0652d17a5ad95\output\jars\classes.jar
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\0e7d548d419faf0a192cd7f99bd6543d5062afee\output\jars\classes.jar
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\87c8f13e0cddc08265c43942441d25e39f1c0865\class
+>>> Handle Dir: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+>>> Do: ProviderInjector
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\e2dfe26920d9ea2517ce640d11d0652d17a5ad95\output\jars\classes.jar
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class
+    [Warning] --> java.lang.Exception: can not replace self 
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\0e7d548d419faf0a192cd7f99bd6543d5062afee\output\jars\classes.jar
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\87c8f13e0cddc08265c43942441d25e39f1c0865\class
+>>> Handle Dir: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+>>> Replace: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release\com\qihoo360\replugin\sample\demo1\MainActivity$19.class Provider.insert():237
+>>> Do: ProviderInjector2
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\e2dfe26920d9ea2517ce640d11d0652d17a5ad95\output\jars\classes.jar
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\0e7d548d419faf0a192cd7f99bd6543d5062afee\output\jars\classes.jar
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\87c8f13e0cddc08265c43942441d25e39f1c0865\class
+>>> Handle Dir: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+>>> Do: GetIdentifierInjector
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\e2dfe26920d9ea2517ce640d11d0652d17a5ad95\output\jars\classes.jar
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class
+ GetIdentifierCall => E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class\com\qihoo360\replugin\c.class getIdentifier():-1
+ GetIdentifierCall => E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class\com\qihoo360\replugin\c.class getIdentifier():-1
+>>> Handle Jar: C:\Users\lenovo\.android\build-cache\0e7d548d419faf0a192cd7f99bd6543d5062afee\output\jars\classes.jar
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\87c8f13e0cddc08265c43942441d25e39f1c0865\class
+>>> Handle Dir: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+----------------------------------------------------------------------------------------------------
+E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\classes\release
+----------------------------------------------------------------------------------------------------
+>>> Repackage...
+      [zip] Building zip: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\0848edb7126d45045f7ba46b11a297f3b693dd59\class.jar
+      [zip] Building zip: E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\app\build\intermediates\exploded-aar\87c8f13e0cddc08265c43942441d25e39f1c0865\class.jar
+----------------------------------------------------------------------------------------------------
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+
+app 这个 project 构建完成
+
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:library:prepareComAndroidSupportAppcompatV72531Library
+:library:prepareComAndroidSupportSupportCompat2531Library
+:library:prepareComAndroidSupportSupportCoreUi2531Library
+:library:prepareComAndroidSupportSupportCoreUtils2531Library
+:library:prepareComAndroidSupportSupportFragment2531Library
+:library:prepareComAndroidSupportSupportMediaCompat2531Library
+:library:prepareComAndroidSupportSupportV42531Library
+:library:prepareComAndroidSupportSupportVectorDrawable2531Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+
+
+:plugin_library:replugin-plugin-lib:preBuild UP-TO-DATE
+:plugin_library:replugin-plugin-lib:extractProguardFiles
+:plugin_library:replugin-plugin-lib:preReleaseBuild
+:plugin_library:replugin-plugin-lib:checkReleaseManifest
+:plugin_library:replugin-plugin-lib:preDebugAndroidTestBuild UP-TO-DATE
+:plugin_library:replugin-plugin-lib:preDebugBuild UP-TO-DATE
+:plugin_library:replugin-plugin-lib:preDebugUnitTestBuild UP-TO-DATE
+:plugin_library:replugin-plugin-lib:preReleaseUnitTestBuild UP-TO-DATE
+:plugin_library:replugin-plugin-lib:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:plugin_library:replugin-plugin-lib:prepareComAndroidSupportAppcompatV72340Library
+:plugin_library:replugin-plugin-lib:prepareComAndroidSupportSupportV42340Library
+:plugin_library:replugin-plugin-lib:prepareComAndroidSupportSupportVectorDrawable2340Library
+:plugin_library:replugin-plugin-lib:prepareReleaseDependencies
+:plugin_library:replugin-plugin-lib:compileReleaseAidl
+:plugin_library:replugin-plugin-lib:compileReleaseNdk UP-TO-DATE
+:plugin_library:replugin-plugin-lib:compileLint
+:plugin_library:replugin-plugin-lib:copyReleaseLint UP-TO-DATE
+:plugin_library:replugin-plugin-lib:compileReleaseRenderscript
+:plugin_library:replugin-plugin-lib:generateReleaseBuildConfig
+:plugin_library:replugin-plugin-lib:generateReleaseResValues
+:plugin_library:replugin-plugin-lib:generateReleaseResources
+:plugin_library:replugin-plugin-lib:packageReleaseResources
+:plugin_library:replugin-plugin-lib:processReleaseManifest
+:plugin_library:replugin-plugin-lib:processReleaseResources
+:plugin_library:replugin-plugin-lib:generateReleaseSources
+:plugin_library:replugin-plugin-lib:incrementalReleaseJavaCompilationSafeguard
+:plugin_library:replugin-plugin-lib:javaPreCompileRelease
+:plugin_library:replugin-plugin-lib:compileReleaseJavaWithJavac
+:plugin_library:replugin-plugin-lib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:plugin_library:replugin-plugin-lib:extractReleaseAnnotations
+:plugin_library:replugin-plugin-lib:mergeReleaseShaders
+:plugin_library:replugin-plugin-lib:compileReleaseShaders
+:plugin_library:replugin-plugin-lib:generateReleaseAssets
+:plugin_library:replugin-plugin-lib:mergeReleaseAssets
+:plugin_library:replugin-plugin-lib:mergeReleaseProguardFiles
+:plugin_library:replugin-plugin-lib:packageReleaseRenderscript UP-TO-DATE
+:plugin_library:replugin-plugin-lib:processReleaseJavaRes UP-TO-DATE
+:plugin_library:replugin-plugin-lib:transformResourcesWithMergeJavaResForRelease
+:plugin_library:replugin-plugin-lib:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.2
+Reading input...
+Reading program directory [E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\plugin_library\replugin-plugin-lib\build\intermediates\classes\release] (filtered)
+Reading library jar [C:\Users\lenovo\.android\build-cache\b5ddfa7dee46358f281e4655c17f6dcb0f856e9e\output\jars\classes.jar] (filtered)
+Reading library jar [C:\Users\lenovo\.android\build-cache\768351bec8d77328c0d34b7b27073a81899fd38f\output\jars\classes.jar] (filtered)
+Reading library jar [C:\Users\lenovo\.android\build-cache\e256d11ce93aed68646997ff3c30f5d8bffe88ae\output\jars\classes.jar] (filtered)
+Reading library jar [C:\Users\lenovo\.android\build-cache\2ab3c78ffc06b5f5c403b61dfd484ff0f6405b6d\output\jars\classes.jar] (filtered)
+Reading library jar [C:\Users\lenovo\.android\build-cache\2ab3c78ffc06b5f5c403b61dfd484ff0f6405b6d\output\jars\libs\internal_impl-23.4.0.jar] (filtered)
+Reading library jar [C:\Users\lenovo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar] (filtered)
+Reading library jar [C:\Users\lenovo\AppData\Local\Android\sdk\platforms\android-25\android.jar]
+Reading library jar [C:\Users\lenovo\AppData\Local\Android\sdk\platforms\android-25\optional\org.apache.http.legacy.jar]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Initializing...
+Note: the configuration keeps the entry point 'com.qihoo360.replugin.RePlugin { boolean preload(com.qihoo360.replugin.model.PluginInfo); }', but not the descriptor class 'com.qihoo360.replugin.model.PluginInfo'
+Note: the configuration keeps the entry point 'com.qihoo360.replugin.RePlugin { boolean registerGlobalBinderDelayed(java.lang.String,com.qihoo360.replugin.IBinderGetter); }', but not the descriptor class 'com.qihoo360.replugin.IBinderGetter'
+Note: there were 2 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Ignoring unused library classes...
+  Original number of library classes: 5735
+  Final number of library classes:    361
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\plugin_library\replugin-plugin-lib\build\outputs\mapping\release\usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 46
+  Final number of program classes:    40
+Obfuscating...
+Printing mapping to [E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\plugin_library\replugin-plugin-lib\build\outputs\mapping\release\mapping.txt]...
+Writing output...
+Preparing output jar [E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\plugin_library\replugin-plugin-lib\build\intermediates\transforms\proguard\release\jars\3\3\main.jar]
+  Copying resources from program directory [E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\plugin_library\replugin-plugin-lib\build\intermediates\classes\release] (filtered)
+Printing classes to [E:\github\RePlugin-2.2.0\replugin-sample\plugin\plugin-demo1\plugin_library\replugin-plugin-lib\build\outputs\mapping\release\dump.txt]...
+:plugin_library:replugin-plugin-lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:plugin_library:replugin-plugin-lib:mergeReleaseJniLibFolders
+:plugin_library:replugin-plugin-lib:transformNativeLibsWithMergeJniLibsForRelease
+:plugin_library:replugin-plugin-lib:transformNativeLibsWithSyncJniLibsForRelease
+:plugin_library:replugin-plugin-lib:bundleRelease
+:plugin_library:replugin-plugin-lib:compileReleaseSources
+:plugin_library:replugin-plugin-lib:assembleRelease
+
+BUILD SUCCESSFUL
+
+Total time: 33.044 secs
